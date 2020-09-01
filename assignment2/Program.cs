@@ -90,8 +90,12 @@ namespace localcinema
         private static void sentence()
         
         {
+            Console.WriteLine("Write the sentence and i will show the last word for you. ");
+            string input; 
+            input = Console.ReadLine();
+            var a = input.Split();
+            Console.WriteLine(a[a.Length - 1]);
 
-            
 
             Print();
         }
